@@ -1,6 +1,6 @@
-import fs from 'fs';
-import path from 'path';
-import {fileURLToPath} from 'url';
+import fs from 'fs'; //IMPORTA EL MODULO fs DE NODE.JS, QUE PERMITE TRABAJAR CON EL SISTEMA DE ARCHIVOS.
+import path from 'path'; //IMPORTA EL MODULO path, PARA MANEJAR Y CONSTRUIR RUTAS DE ARCHIVOS.
+import {fileURLToPath} from 'url'; 
 import SuperheroesDataSource from './superheroesDataSource.mjs';
 
 const __filename = fileURLToPath(import.meta.url);

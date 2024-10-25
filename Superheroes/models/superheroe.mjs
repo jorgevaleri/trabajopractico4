@@ -1,3 +1,4 @@
+//DEFINICION DE LA CLASE SUPERHEROE
 export default class Superheroe {
     constructor(id, nombreSuperheroe, nombreReal, nombreSociedad, edad, planetaOrigen, debilidad, poder = [], habilidadEspecial, aliado = [], enemigo = [])
     {
@@ -14,17 +15,17 @@ export default class Superheroe {
         this.enemigo = enemigo;
     }
     
-    //Método para agregar un nuevo poder al superhéroe
+    //METODO PARA AGREGAR UN NUEVO PODER AL SUPERHEROE
     agregarPoder(poder){
         this.poder.push(poder)
     }
 
-    //Metodo para agregar un aliado
+    //METODO PARA AGREGAR UN ALIADO
     agregarAliado(aliado){
         this.aliado.push(aliado);
     }
 
-    //Metodo para agregar un enemigo
+    //METODO PARA AGREGAR UN ENEMIGO
     agregarEnemigo(enemigo){
         this.enemigo.push(enemigo);
     }
